@@ -1,0 +1,1 @@
+#demonstruje obsluge wyjatkow

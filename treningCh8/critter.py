@@ -43,7 +43,7 @@ class Critter(object):  # object - wbudowany typ podstawowy
         self.__private_method()
 
     # dekorator wskazuje na metode statyczna
-    @staticmethod
+    @staticmethod 
     # metoda statyczna (wlasna nazwa metody), bez self bo wywolywana przez klase, nie otrzyma referencji do obiektu
     def status():
         print("\n[ Ogolna ilosc zwierzakow wynosi", Critter.total, "]")
@@ -59,7 +59,7 @@ class Critter(object):  # object - wbudowany typ podstawowy
         if new_age == "":
             print("Wartosc nie moze byc pusta")
         else:
-            self.__age == new_age
+            self.__age = new_age
             print("Zmiana wartosci powiodla sie")
 
 # główny program
